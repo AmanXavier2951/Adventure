@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+       #navbar{
+              background-color: transparent;
+              }
+       .navbar-toggler{
+                     background-color: #EB455F;
+                     color: #fff;
+                     }
+
+	#mynavbar ul li{
+		padding: 2px;
+		margin: 10px;
+		transition: 0.5s;
+	      }
+	#mynavbar ul li a{ color: #fff; font-weight: 400; transition: 0.5s;}
+	#mynavbar ul li:hover a{color: red;}
+
+	#header{
+              background-image: url(assets/img/banner.jpg);
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              }
+
+       #blurpage{
+              /* From https://css.glass */
+              background: rgba(0, 0, 0, 0.16);
+              box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+              backdrop-filter: blur(0.2px);
+              -webkit-backdrop-filter: blur(0.2px);
+                     }
+
+       #redbtn{
+       	background-color: #EB455F;
+       	border-radius: 100px;
+       	font-weight: bold;
+       	padding: 10px;
+       	padding-right: 20px;
+              padding-left: 20px;
+              color: #fff;
+              border: none;
+              border: 2px solid #EB455F;
+              }
+              
+       #redbtn:hover{
+       	background-color: transparent;
+       	border: 2px solid #EB455F;
+       	color: #EB455F;
+       }
+
+       h1{
+       	/*font-weight: bolder;*/
+       	color: #fff;
+       	font-family: 'Archivo Black', sans-serif;
+       }
+
+       #banner2{
+       background-image: url(assets/img/11.jpg);
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       }
+
+
+
+@media only screen and (max-width: 990px) {
+  #navbar{
+    background-color: #fff;
+    color: black;
+  }
+  .navbar-brand h1{
+       color: #000;
+  }
+  #mynavbar ul li a{ color: #000; font-weight: 400; transition: 0.5s;}
+}
